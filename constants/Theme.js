@@ -1,0 +1,51 @@
+export default {
+    COLORS: {
+        DEFAULT: '#172B4D',
+        PRIMARY: '#5E72E4',
+        SECONDARY: '#F7FAFC',
+        LABEL: '#FE2472',
+        INFO: '#11CDEF',
+        ERROR: '#F5365C',
+        SUCCESS: '#2DCE89',
+        WARNING: '#FB6340',
+        /*not yet changed */
+        MUTED: '#ADB5BD',
+        INPUT: '#DCDCDC',
+        INPUT_SUCCESS: '#7BDEB2',
+        INPUT_ERROR: '#FCB3A4',
+        ACTIVE: '#5E72E4', //same as primary
+        BUTTON_COLOR: '#9C26B0', //wtf
+        PLACEHOLDER: '#9FA5AA',
+        SWITCH_ON: '#5E72E4',
+        SWITCH_OFF: '#D4D9DD',
+        GRADIENT_START: '#6B24AA',
+        GRADIENT_END: '#AC2688',
+        PRICE_COLOR: '#EAD5FB',
+        BORDER_COLOR: '#E7E7E7',
+        BLOCK: '#E7E7E7',
+        ICON: '#172B4D',
+        HEADER: '#525F7F',
+        BORDER: '#CAD1D7',
+        WHITE: '#FFFFFF',
+        BLACK: '#000000',
+        YELLOW: '#ffbf00',
+        SUNHOUSERED: '#DB2128',
+        PORTAL_COLOR: '#5E73E5',
+        RED_SUNHOUSE: '#D42027',
+        GREEN_SUNHOUSE: '#057283',
+        GREEN_PORTAL: '#009387',
+        GREEN_KTV: '#009387',
+        BLUETASK: '#2196F3',
+        TOMATO: 'tomato',
+        DEFAULTTEXT: '#818181',
+        BACKGROUND_COLOR: '#f2f2f2',
+        BACKGROUND_COLOR_GRAY: '#f2f2f2',
+        BACKGROUND_COLOR_GRAY_DARK: '#E4E4E4',
+        Text_COLOR_GRAY: '#818181',
+        Text_COLOR_GRAY_DARK: '#6b6b6b',
+        LINE_COLOR: '#bababa',
+    },
+    FONTS: {
+        sansserif: 'tahoma'
+    }
+};

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "501512161981",
+    "project_id": "sunhousektv",
+    "storage_bucket": "sunhousektv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501512161981:android:85088ee1420a4da59485d4",
+        "android_client_info": {
+          "package_name": "com.sunhouse.SunhouseKTV"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501512161981-ji08lat1ff2ubbe3d6qjnuq7sdjrrd5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAggy_WqbV_4iPaF2xH9-vucKdvYwxsr0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501512161981-ji08lat1ff2ubbe3d6qjnuq7sdjrrd5o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+
+
+{
+  "expo": {
+    "name": "Sunhouse Service",
+    "slug": "SunhouseService",
+    "version": "1.0.4",
+
+    "orientation": "portrait",
+    "icon": "./assets/imgs/LogoApp.png",
+    "updates": {
+      "fallbackToCacheTimeout": 300000,
+      "enabled":true,
+      "checkAutomatically":"ON_LOAD"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sunhouse.SunhouseKTV",
+      "buildNumber": "1.0.0",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDdXgR8A-m6eq1vWDIitM9vurez_l0Rmnw"
+        },
+     "googleServicesFile": "./GoogleService-Info.plist",
+     "infoPlist": {
+       "NSCameraUsageDescription": "This app uses the camera to allow users to upload photos for timekeeping and warranty processing.",
+        "NSPhotoLibraryUsageDescription": "Sunhouse Service needs to access your photo gallery to select photos for warranty processing",
+        "NSPhotoLibraryAddUsageDescription": "Sunhouse Service needs to access your photo library so you can upload for timekeeping",
+        "NSLocationWhenInUseUsageDescription": "Sunhouse Service requires your location so that we can check if the checkin location is valid or not",
+        "NSLocationAlwaysUsageDescription": "Sunhouse Service requires your location so that we can check if the checkin location is valid or not",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Sunhouse Service requires your location so that we can check if the checkin location is valid or not",
+        "NSLocationUsageDescription": "Sunhouse Service requires your location so that we can check if the checkin location is valid or not",
+        "NSCalendarsUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSContactsUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSMicrophoneUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSMotionUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSRemindersUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us."
+     }
+    },
+    "android": {
+      "config": {
+          "googleMaps": {
+              "apiKey": "AIzaSyDdXgR8A-m6eq1vWDIitM9vurez_l0Rmnw"
+          }
+      },
+      "useNextNotificationsApi": true,
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/imgs/LogoApp.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.sunhouse.SunhouseKTV",
+      "versionCode": 5,
+      "permissions": ["CAMERA", "READ_INTERNAL_STORAGE", "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE", "ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    },
+    "web": {
+      "favicon": ""
+    },
+    "description": "Ứng dụng dịch vụ Sunhouse"
+  }
+}
